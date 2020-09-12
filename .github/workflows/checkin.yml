@@ -3,7 +3,7 @@ name: checkin
 on:
   schedule:
     # NOTE: Time is in UTC
-    - cron: "0 2 * * *"
+    - cron: "0 1 * * *"
 
 jobs:
   build:
